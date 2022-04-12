@@ -5,6 +5,9 @@ import * as Joi from 'joi';
 import { NotionModule } from './notion/notion.module';
 import { GithubModule } from './github/github.module';
 
+
+import 'dotenv/config'
+
 @Module({
   imports: [
     ConfigModule.forRoot({
